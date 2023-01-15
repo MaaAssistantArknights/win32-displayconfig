@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "rebuild": "node-gyp rebuild",
-    "install": "npm run rebuild"
+    "install": "yarn rebuild"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/djsweet/win32-displayconfig.git"
+    "url": "https://github.com/MaaAssistantArknights/win32-displayconfig.git"
   },
   "keywords": [
     "windows"
@@ -31,7 +31,7 @@
     "typescript": "^3.9.7"
   },
   "engines": {
-    "node": ">=10.16 <11 || >= 11.8"
+    "node": ">16"
   },
   "files": [
     "CONTRIBUTORS",
